@@ -2,10 +2,7 @@ import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-let str = `
-Script bot ini dijual bila kalian mau bisa chat owner
-
-wa.me/6285804325802
+let str = `_Jika Kalian Ingin Script Bot Ini Bisa Kunjungi YouTube *WH MODS DEV*_
 
 Join Grup Bot Gw: https://chat.whatsapp.com/G8Ofqsp0oIl19GPE5FI8Kk`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
